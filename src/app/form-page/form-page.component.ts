@@ -1,3 +1,4 @@
+import { DataService } from './../data.service';
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl, Validators } from '@angular/forms';
 
@@ -15,8 +16,6 @@ export class FormPageComponent implements OnInit {
   Pass: string = '12345';
   Mob: number = 88171399;
 
-  data = [];
-
   userForm = new FormGroup({
     name: new FormControl('', [Validators.required]),
     address: new FormControl('', [Validators.required]),
@@ -32,6 +31,5 @@ export class FormPageComponent implements OnInit {
     console.log('Name ' + this.userForm.value['name']);
     console.log(this.userForm.value);
     console.log('Validation Status: ' + this.userForm.status);
-    this.data.push();
   }
 }
