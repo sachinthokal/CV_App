@@ -1,0 +1,11 @@
+.header {
+  background-color: #062b54;
+  height: 50px;
+}
+.nav {
+  color: whitesmoke;
+  margin: auto;
+  width: min-content;
+  padding: 4px;
+  font-weight: bolder;
+}
