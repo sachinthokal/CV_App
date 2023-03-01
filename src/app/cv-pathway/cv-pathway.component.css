@@ -6,7 +6,6 @@
   margin-left: 85px;
 }
 .u-turn {
-  position: absolute;
   padding: 2px;
 }
 #label {
@@ -14,4 +13,10 @@
 }
 .r1 {
   margin: 150px 0px 0px 0px;
+}
+.r2 {
+  margin-top: 10px;
+}
+a {
+  color: black;
 }

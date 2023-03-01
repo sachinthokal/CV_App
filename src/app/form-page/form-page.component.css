@@ -1,0 +1,11 @@
+.f1 {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 5px;
+  margin-top: 50px;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+}

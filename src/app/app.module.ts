@@ -7,6 +7,8 @@ import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { DownloadPageComponent } from './download-page/download-page.component';
 import { CVPathwayComponent } from './cv-pathway/cv-pathway.component';
+import { FormPageComponent } from './form-page/form-page.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -14,13 +16,11 @@ import { CVPathwayComponent } from './cv-pathway/cv-pathway.component';
     HeaderComponent,
     HomeComponent,
     DownloadPageComponent,
-    CVPathwayComponent
+    CVPathwayComponent,
+    FormPageComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule
-  ],
+  imports: [BrowserModule, AppRoutingModule, ReactiveFormsModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
